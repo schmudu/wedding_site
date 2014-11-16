@@ -1,0 +1,15 @@
+Description of folders:
+constants - AS constants folder
+controller - AS controller folder
+deploy - folder that need to be place on the web server public html folder
+fla - source flash files
+ftp - configuration files to connect to the Webhostingpad web server
+graphics - any graphics files to create or prototype application
+lib - folder that needs to be placed one level up the public html folder on the web server.  Contains password for database
+model - AS model folder
+view - AS view folder
+
+== DEPLOY WARNINGS
++ If you ever change the MySQL user or password on WebHostingPad.com you need to add the user to the database that you want to grant them access to.  Do this by:
+1) Creating the user
+2) Press the 'Add user' and select the appropriate privileges.

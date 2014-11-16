@@ -1,0 +1,14 @@
+load data local infile '/Users/Patrick/Desktop/List.csv' into table guests fields terminated by ',' lines terminated by '\r' (first_name, last_name, attending, rsvp, group_id);
+
+==How to load .csv file into MySQL DB on PHPADMIN
+1) click on 'schmudu_wedding'
+1A) select 'guests' table
+2) select file
+3) replace table data with file
+3a) select option CSV using LOAD DATA
+4) fields terminated by ,
+5) fields enclosed by NOTHING
+6) fields escaped by NOTHING
+7) lines terminated by \r
+8) enter column names group_id, first_name, last_name, attending, rsvp
+9) Make sure csv is ordered in the order listed in previous step.
